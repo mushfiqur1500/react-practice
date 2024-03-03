@@ -1,12 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-import './index.css';
-
+import "./index.css";
 
 function BookList() {
   return (
-    <section className='booklist'>
+    <section className="booklist">
       <Book />
       <Book />
       <Book />
@@ -17,7 +16,7 @@ function BookList() {
 
 const Book = () => {
   return (
-    <article className='book'>
+    <article className="book">
       <Image />
       <Title />
       <Author />
@@ -26,6 +25,7 @@ const Book = () => {
 };
 
 const Image = () => (
+  //some text
   <img
     src="https://images-na.ssl-images-amazon.com/images/I/81JL3vN6voL._AC_UL600_SR600,400_.jpg"
     alt="Blood Money"
