@@ -25,10 +25,10 @@ const Book = () => {
 };
 
 const Image = () => (
-  //some text
+  
   <img
-    src="https://images-na.ssl-images-amazon.com/images/I/81JL3vN6voL._AC_UL600_SR600,400_.jpg"
-    alt="Blood Money"
+    src="./images/book-1.jpg"
+    alt="Why the Powerful Turn a Blind Eye While China Kills Americans"
   />
 );
 const Title = () => <h2>Blood Money</h2>;

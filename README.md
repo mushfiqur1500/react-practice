@@ -1,4 +1,4 @@
-# React Fundamentals
+ # React Fundamentals
 
 #### React Course
 
@@ -455,7 +455,7 @@ const Book = () => {
 
 ```js
 const Image = () => (
-  <img src="./images/book-1.jpg" alt="Interesting Facts For Curious Minds" />
+  <img src="./images/book-1.jpg" alt="Why the Powerful Turn a Blind Eye While China Kills Americans" />
 );
 ```
 
