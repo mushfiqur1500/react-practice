@@ -33,11 +33,12 @@ const Image = () => (
 );
 const Title = () => <h2>Blood Money</h2>;
 const Author = () => {
-  return (
-    <h4 style={{ color: "#617d98", fontSize: "0.75rem", marginTop: "0.5rem" }}>
-      Peter Schweizer
-    </h4>
-  );
+  const inlineHeadingStyles = {
+    color: '#617d98',
+    fontSize: '0.75rem',
+    marginTop: '0.5rem',
+  };
+  return <h4 style={inlineHeadingStyles}>Peter Schweizer </h4>;
 };
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
