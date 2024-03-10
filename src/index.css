@@ -36,3 +36,9 @@ body {
     margin-top: 1rem;
     font-size: 1rem;
 }
+.book h4 {
+  /* won't work */
+    color: red;
+  /* will work */
+    letter-spacing: 2px;
+}
